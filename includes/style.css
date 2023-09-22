@@ -1,0 +1,247 @@
+a {
+	color : #003399;
+	font-weight : bold;
+	text-decoration : underline;
+}
+
+a.blue {
+	color : #CCDDFF;
+}
+
+a.blue:hover {
+	color : #003399;
+	text-decoration : none;
+}
+
+a:hover {
+	color : #FFCC00;
+	text-decoration : none;
+}
+
+body {
+	background-color : #FFFFFF;
+	margin : 0px 0px;
+	padding : 0px 0px;
+	font-family : Tahoma, Arial, Verdana;
+	font-size : 11px;
+	scrollbar-3d-light-color : #FFCC00;
+	scrollbar-arrow-color : #FFFFFF;
+	scrollbar-base-color : #FFCC00;
+	scrollbar-dark-shadow-color : #FFCC00;
+	scrollbar-face-color : #003399;
+	scrollbar-highlight-color : #FFFFFF;
+	scrollbar-shadow-color : #000000;
+	scrollbar-track-color : #FFCC00;
+}
+
+ul {
+	color : #003399;
+	font-family : Tahoma, Arial, Verdana;
+	font-size : 11px;
+	line-height : 20px;
+	margin-bottom : 20px;
+	margin-left : 55px;
+	margin-right : 30px;
+	margin-top : 20px;
+	text-align : justify;
+}
+
+.bottomtext {
+	color : #003399;
+	font-family : Tahoma, Arial, Verdana;
+	font-size : 10px;
+	line-height : 12px;
+}
+
+.headingtext {
+	color : #003399;
+	font-family : Tahoma, Arial, Verdana;
+	font-size : 14px;
+	line-height : 20px;
+	margin-bottom : 20px;
+	margin-left : 30px;
+	margin-right : 30px;
+	margin-top : 20px;
+	text-align : justify;
+}
+
+.hidethis {
+	clip : rect( );
+	visibility : hidden;
+}
+
+.maintext {
+	color : #003399;
+	font-family : Tahoma, Arial, Verdana;
+	font-size : 11px;
+	line-height : 20px;
+	margin-bottom : 20px;
+	margin-left : 30px;
+	margin-right : 30px;
+	margin-top : 20px;
+	text-align : justify;
+}
+
+.newstext {
+	color : #003399;
+	font-family : Tahoma, Arial, Verdana;
+	font-size : 10px;
+	line-height : 13px;
+	margin-bottom : 20px;
+	margin-left : 10px;
+	margin-right : 10px;
+	margin-top : 20px;
+}
+
+.rightform {
+	margin-left : 10px;
+}
+
+.rightformbox {
+	border : #003399;
+	border-bottom-width : 1px;
+	border-left-width : 1px;
+	border-right-width : 1px;
+	border-style : solid;
+	border-top-width : 1px;
+	color : #666666;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	width : 138px;
+}
+
+.rightformboxbig {
+	border : #003399;
+	border-bottom-width : 1px;
+	border-left-width : 1px;
+	border-right-width : 1px;
+	border-style : solid;
+	border-top-width : 1px;
+	color : #666666;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	height : 70px;
+	width : 138px;
+}
+
+.righttext {
+	color : #003399;
+	font-family : Tahoma, Arial, Verdana;
+	font-size : 10px;
+	line-height : 13px;
+	margin-bottom : 0px;
+	margin-left : 10px;
+	margin-right : 10px;
+	margin-top : 0px;
+}
+
+.tabledata {
+	color : #003399;
+	font-family : Tahoma, Arial, Verdana;
+	font-size : 11px;
+	line-height : 20px;
+	margin-bottom : 20px;
+	margin-left : 30px;
+	margin-right : 30px;
+	margin-top : 20px;
+}
+
+.tableheading {
+	color : #003399;
+	font-family : Tahoma, Arial, Verdana;
+	font-size : 11px;
+	font-weight : bold;
+	line-height : 20px;
+	margin-bottom : 20px;
+	margin-left : 30px;
+	margin-right : 30px;
+	margin-top : 20px;
+	text-align : justify;
+}
+
+.tableindent {
+	justify;
+	margin-right : 30px;
+	margin-bottom : 20px;
+	margin-left : 30px;
+}
+
+#processtext1 {
+	clip : rect( );
+	left : 140px;
+	position : absolute;
+	top : 580px;
+	visibility : visible;
+	width : 400px;
+	z-index : 5;
+}
+
+#processtext2 {
+	clip : rect( );
+	left : 140px;
+	position : absolute;
+	top : 580px;
+	visibility : hidden;
+	width : 400px;
+	z-index : 5;
+}
+
+#processtext3 {
+	clip : rect( );
+	left : 140px;
+	position : absolute;
+	top : 580px;
+	visibility : hidden;
+	width : 400px;
+	z-index : 5;
+}
+
+#processtext4 {
+	clip : rect( );
+	left : 140px;
+	position : absolute;
+	top : 580px;
+	visibility : hidden;
+	width : 400px;
+	z-index : 5;
+}
+
+#processtext5 {
+	clip : rect( );
+	left : 140px;
+	position : absolute;
+	top : 580px;
+	visibility : hidden;
+	width : 400px;
+	z-index : 5;
+}
+
+#processtext6 {
+	clip : rect( );
+	left : 140px;
+	position : absolute;
+	top : 580px;
+	visibility : hidden;
+	width : 400px;
+	z-index : 5;
+}
+
+#processtext7 {
+	clip : rect( );
+	left : 140px;
+	position : absolute;
+	top : 580px;
+	visibility : hidden;
+	width : 400px;
+	z-index : 5;
+}
+
+#processtext8 {
+	clip : rect( );
+	left : 140px;
+	position : absolute;
+	top : 580px;
+	visibility : hidden;
+	width : 400px;
+	z-index : 5;
+}

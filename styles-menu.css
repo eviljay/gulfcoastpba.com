@@ -1,0 +1,103 @@
+#menu, #menu * {
+    position:relative;
+    z-index:999;
+    list-style:none;
+    border:0;
+    padding:0;
+    margin-top:0px;	/*space at top of the menu*/
+	cursor:pointer;
+}
+
+/* main menu & slider */
+#menu li.back {
+    position:absolute;
+    z-index:8;
+    width:305px;
+    background:url(images/menu/menu-slider.png) no-repeat;
+	margin-top:1px; /*center slider vertically around text*/
+}
+#menu span {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:24px;
+	line-height:37px;
+	font-weight:bold;
+    color:#a49050;
+	/*text-transform:uppercase;*/
+	display:block;
+	margin:0; /*space between menu items*/
+	padding:0 0 0 20px; /*amount to indent menu option text*/
+}
+#menu a {
+    text-decoration: none;
+}
+
+/* sub menu 1 */
+#menu li div {				
+    position: absolute;
+    float: left;
+    z-index: 11;
+    visibility: hidden;
+	margin-top:-32px;	/* positions sub menu 1 vertically */
+    margin-left:305px; /* positions sub menu 1 horizontally */
+}
+#menu ul ul { /* sub menu 1 container */
+	z-index: 12;
+	border:2px solid #0f1556;
+	border-bottom:0;
+	background:url(images/headerBG.jpg) repeat;
+
+	-moz-box-shadow:  0px 0px 12px -3px #000000;
+	-webkit-box-shadow:  0px 0px 12px -3px #000000;
+	box-shadow:  0px 0px 12px -3px #000000;  
+}
+#menu li:hover>div {
+    visibility: visible;
+}
+#menu ul ul li { /* individual sub menu 1 option container */
+	width: 200px;
+    padding: 0px;
+    text-align: left;    
+}
+#menu ul ul a {						
+    float: none;
+    z-index: -1;
+    display: block;
+}
+#menu ul ul a span { /* sub menu 1 option text */
+    font-size: 18px;
+    line-height: 28px;
+    /*text-transform: uppercase;*/
+	color:#a49050;
+	/*background-color:#748157;*/
+	background:url(images/menuBG.png) 50% top repeat-y;
+	border-bottom:2px solid #0f1556;
+	margin:0; /*space between sub menu items*/
+}
+#menu ul ul a:hover span  { /* sub menu 1 option hover */
+	color:#e2ead3;
+	/*background-color: #748157;*/
+	background:url(images/menu/menu-slider.png) 0 0 no-repeat;
+}
+
+
+/* sub menu 2 */
+#menu ul ul div {
+	margin-left: 200px; /* equal to width of sub menu 1 */
+    margin-top: -13px; /* positions sub menu 2 vertically */
+}
+#menu ul ul ul {
+    margin-left:0px;  /* positions sub menu 2 horizontally */
+}
+#menu ul ul ul a span { /* sub menu 2 option text -- delete if you want sub menu 2 to act identical to sub menu 1 */
+    font-size: 18px;
+    line-height: 25px;
+    /*text-transform: uppercase;*/
+	color:#a49050;
+	/*background-color:#748157;*/
+	border-bottom:2px solid #0f1556;
+	margin:0; /*space between sub menu 2 items*/
+}
+#menu ul ul ul a:hover span  { /* sub menu 2 option hover -- delete if you want sub menu 2 to act identical to sub menu 1 */
+	color:#e2ead3;
+	/*background-color: #748157;*/
+}

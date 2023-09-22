@@ -1,0 +1,12 @@
+document.addEventListener("DOMContentLoaded", function () {	"use strict"; (function($) {
+	
+	$(window).on("load", function() { 
+		setupSidebar();								 
+		magicMenu();
+
+		/* Add height to the bottom of the sidebar so that it tucks under footer*/
+		var fillerH = $("#page").height() - $("#secondary .sidebar-inner").height();		
+		$(".widget-filler").height(fillerH);				
+	});
+	
+})(jQuery); }); 
